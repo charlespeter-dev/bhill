@@ -13,6 +13,7 @@ export default {
     hot: true
   },
   build: {
+    minify: true,
     outDir: path.join(__dirname, "build"),
     emptyOutDir: true,
     rollupOptions: {
