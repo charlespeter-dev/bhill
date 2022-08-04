@@ -1,0 +1,94 @@
+:root {
+    --bs-body-font-family: "Calibri W01", Arial, sans-serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 200;
+    --bs-body-line-height: 1;
+    --bs-body-color: #1c1c1c;
+    --bs-body-bg: #ffffff;
+    --bs-body-text-align: left;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #F5F5F5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Century Gothic W01", "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #1B3D6D;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    width: 300px;
+}
+
+@media screen and (min-width: 992px) {
+    form {
+        width: 350px;
+    }
+}
+
+form .form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-field.error {
+    font-style: normal !important;
+}
+
+form .form-field .field-label {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: var(--bs-body-font-size);
+    font-weight: 400;
+}
+
+form .submit {
+    display: block;
+    text-align: center;
+}
+
+form .submit input[type="submit"] {
+    background-color: #81BD41;
+    border: 1px solid #81BD41;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: var(--bs-body-font-size);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form input[type="text"] {
+    padding: 7px;
+    border: 1px solid #B4B4B4;
+    border-radius: 5px;
+}
+
+form .errors {
+    text-align: center;
+}
+
+form .errors,
+form .error {
+    margin-left: 15px;
+    font-style: italic;
+    color: red;
+}

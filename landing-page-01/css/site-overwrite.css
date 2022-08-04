@@ -1,0 +1,24 @@
+#banner-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    max-height: none !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.nav-action-item {
+    color: #fff;
+}
+
+#page-header .page {
+    padding-bottom: 25px;
+}
+
+@media (min-width: 481px) {
+    .nav-action-item.nav-action-phone {
+        background-image: url('https://connect.bakerhill.com/l/635721/2019-01-21/432g/635721/16683/phone.png') !important;
+    }
+}

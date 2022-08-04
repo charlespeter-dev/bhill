@@ -1,0 +1,149 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="16px" />
+      <mj-wrapper background-color="#fafafa" border="1px solid #dddddd" />
+      <mj-section background-color="#ffffff" />
+      <mj-text line-height="23px" color="#505050" />
+      <mj-button background-color="#81BD41" color="#FFFFFF" border="1px solid #81BD41" font-weight="700" />
+      <mj-class name="h1" font-size="20px" line-height="26px" font-weight="700" color="#FFFFFF" align="center" />
+      <mj-class name="h2" font-size="18px" line-height="24px" color="#81BD41" font-weight="700" align="center" />
+      <mj-class name="footer" font-size="14px" line-height="20px" color="#909698" />
+      <mj-class name="small" font-size="11px" line-height="15px" color="#909698" align="center" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-wrapper full-width="full-width" padding="0">
+
+      <!-- top header -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="small">
+            Trouble to load your email? <a href="{{View_Online}}" style="color: #909698; text-decoration: underline;">Click Here</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- logo -->
+
+      <mj-section background-color="#1C3E6E">
+        <mj-column>
+          <mj-image href="https://www.bakerhill.com/" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z63x/635721/1658923126ZBA4n4jm/logo.png" padding="0" width="196px" height="75px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- header -->
+
+      <mj-section padding="0" background-color="#1C3E6E">
+        <mj-column>
+          <mj-text mj-class="h2">
+            Case Study
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0" background-color="#1C3E6E">
+        <mj-column>
+          <mj-text mj-class="h1">
+            Stay secured with a better IT partner
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#1C3E6E">
+        <mj-column>
+          <mj-button href="https://www.bakerhill.com/">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image padding="0" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yt/635721/1658918190VG7uKYaw/ipad_thumbnail_email.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+            <p>Hello there,</p>
+            <p style="margin-bottom: 30px;">Let’s say you’re affected by a ransomware attack. According to Forbes, on average, businesses spend $2.09 million to remediate cyberattacks, and if this happens to your business, there’ll be some tough questions you’ll have to answer to the mangement.</p>
+            <p><a href="https://www.bakerhill.com/" style="font-weight: 700; text-decoration: none; color: #81BD41;">Get better protection</a> with a superior IT partner. Our latest case study, 4 Ways that a Managed IT Service Provider Adds Value to Your Business, shares the benefits of outsourcing your IT to experts so that you can focus on your core business. The case study also covers:</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-table padding-top="0" cellpadding="6px" cellspacing="6px">
+            <tr>
+              <td style="line-height: 1; width: 44px; height: 44px;"><img style="width: 44px; height: 44px;" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yb/635721/16589180869a9nbQnV/icon.jpg" alt="" width="44" height="40" /></td>
+              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1; width: 44px; height: 44px;"><img style="width: 44px; height: 44px;" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yf/635721/1658918103lkmv2V4n/icon_2.jpg" alt="" width="44" height="40" /></td>
+              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1; width: 44px; height: 44px;"><img style="width: 44px; height: 44px;" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yj/635721/1658918127S8oVLy0T/icon_3.jpg" alt="" width="44" height="40" /></td>
+              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-button href="https://www.bakerhill.com/">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#eeeeee">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image padding-top="0" padding-bottom="0" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5ym/635721/1658918146Y0dZ5tlz/Image.png" alt="" />
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-text padding-top="0" padding-bottom="0" align="center">
+            Ready to take the next steps in transforming lending at your institution? Get in touch with our team today to get started. <a href="https://www.bakerhill.com/" style="font-weight: 700; text-decoration: none; color: #81BD41;">Lets Talk</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section background-color="#0A2246">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="https://connect.bakerhill.com/l/635721/2022-07-27/5z63x/635721/1658923126ZBA4n4jm/logo.png" alt="" width="129px" height="49.36px" />
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-text mj-class="footer" align="center">
+            Carmel Campus 1320 City Center Drive <br> Suite 30 Carmel, IN 46032 <br> support@bakerhill.com | 800-821-4455
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0" background-color="#0A2246">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#909698" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" background-color="#0A2246">
+        <mj-column>
+          <mj-text mj-class="small">
+            © 2022 Baker Hill Solutions, LLC. All rights reserved | <a href="https://www.bakerhill.com/" style="color: #909698; text-decoration: underline;">Privacy Policy</a> | <a href="{{Unsubscribe}}" style="color: #909698; text-decoration: underline;">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>

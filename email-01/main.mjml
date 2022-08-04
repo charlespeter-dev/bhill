@@ -1,0 +1,117 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-wrapper background-color="#fafafa" border="1px solid #dddddd" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-family="Helvetica, Arial, san-serif" font-size="16px" line-height="23px" color="#505050" />
+      <mj-button background-color="#1B3D6D" color="#FFFFFF" border="1px solid #1B3D6D" font-weight="700" text-transform="uppercase" />
+      <mj-class name="h1" font-size="20px" line-height="26px" font-weight="700" color="#1b3d6d" />
+      <mj-class name="h2" font-size="18px" line-height="24px" color="#1b3d6d" />
+      <mj-class name="small" font-size="11px" line-height="15px" color="#808080" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-wrapper full-width="full-width" padding="0">
+
+      <!-- top header -->
+
+      <mj-section padding="0">
+        <mj-column width="65%">
+          <mj-text mj-class="small">
+            Transforming lending doesn't change your mission - it evolves how you accomplish it.
+          </mj-text>
+        </mj-column>
+        <mj-column width="35%">
+          <mj-text mj-class="small">
+            Email not displaying correctly? <a href="{{View_Online}}" style="color: #1B3D6D;">View it in your browser</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image href="https://connect.bakerhill.com/" src="https://connect.bakerhill.com/l/635721/2020-06-12/2vbcy/635721/80004/BH_triangle_email_banners3.png" alt="Baker Hill Email Header" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="h1">
+            If you say: "We've always done it this way" then you've already lost.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+
+          <mj-text padding-top="0">
+            One silver lining in the COVID-19 crisis is that it motivated financial institutions to review and rethink their traditional offerings and start plotting digital pathways for their customers.
+          </mj-text>
+
+          <mj-text>
+            For mid-size community banks and credit unions, the key to success is in leveraging the right technology partners. Those that have already digitalized the lending process are reporting a greater than 5% improvement in loan productivity.
+          </mj-text>
+
+          <mj-text>
+            <a href="https://connect.bakerhill.com/making-the-most-of-tech-whitepaper" style="font-weight: 700; color: #1B3D6D;">Read this whitepaper</a> to learn more about how to:
+          </mj-text>
+
+          <mj-text padding-top="0">
+            <ul>
+              <li>Identify the right technology partner for your financial institution</li>
+              <li>Overcome some of the common pitfalls bankers face when implementing technology</li>
+              <li>Get the most value out of your technology partners for new revenue opportunities</li>
+            </ul>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F7F7F7">
+        <mj-column vertical-align="middle">
+          <mj-image align="left" href="https://connect.bakerhill.com/making-the-most-of-tech-whitepaper" src="https://connect.bakerhill.com/l/635721/2022-06-22/5rl1y/635721/1655929193AjeLnjzA/Baker_Hill_Whitepaper_Are_Banks_and_Credit_Unions_Making_the_Most_of_T.png" alt="" />
+        </mj-column>
+
+        <mj-column vertical-align="middle">
+          <mj-button href="https://connect.bakerhill.com/making-the-most-of-tech-whitepaper" align="left">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- footer -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="small">
+            <em>Copyright © {{Current_Year}}, All rights reserved.</em><br>
+            <strong>Our mailing address is:</strong><br>
+            <br>
+            Baker Hill<br>
+            1320 City Center Drive<br>
+            Suite 300<br>
+            Carmel, IN 46032
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://connect.bakerhill.com/l/635721/2019-08-22/sq5s/635721/44775/Web_Small_BH_Logo.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text mj-class="small" align="center">
+            <a href="https://twitter.com/bakerhill" style="color: #1B3D6D;">follow us on Twitter</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/company/baker-hill-solutions/" style="color: #1B3D6D;">follow us on LinkedIn</a>&nbsp;|&nbsp;<a href="{{{EmailPreferenceCenter_263}}}" style="color: #1B3D6D;">update subscription preferences</a>&nbsp;|&nbsp;<a href="{{Unsubscribe}}" style="color: #1B3D6D;">unsubscribe</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
