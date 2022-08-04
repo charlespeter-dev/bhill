@@ -1,8 +1,7 @@
-const path = require('path')
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
+import path from "path";
 
-export default defineConfig({
+export default {
+  base: './',
   root: path.resolve(__dirname, 'src'),
   resolve: {
     alias: {
@@ -14,10 +13,13 @@ export default defineConfig({
     hot: true
   },
   build: {
+    outDir: path.join(__dirname, "build"),
+    emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'src/main.html')
+        main: path.resolve(__dirname, 'src/main.html'),
+        ty: path.resolve(__dirname, 'src/ty.html')
       }
-    }
-  }
-});
+    },
+  },
+};
