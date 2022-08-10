@@ -126,6 +126,10 @@ hr {
     @include media-breakpoint-up(lg) {
         width: unset;
     }
+
+    &:hover {
+        color: #fff;
+    }
 }
 
 .cta-green {
