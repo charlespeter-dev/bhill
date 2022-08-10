@@ -36,10 +36,19 @@ h3 {
 
 header {
     margin-top: 2rem;
+
+    @include media-breakpoint-up(lg) {
+        padding-left: 100px;
+    }
 }
 
 main {
     padding-bottom: 50px;
+
+    @include media-breakpoint-up(lg) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 body {
@@ -112,12 +121,25 @@ body {
             align-items: center;
             background-color: #F5F5F5;
             border-radius: 10px;
-            padding: 15px;
+
+            padding-top: 30px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+            padding-left: 20px;
 
             margin-top: 100px;
             margin-bottom: 100px;
 
+            @include media-breakpoint-up(lg) {
 
+                padding-top: 30px;
+                padding-right: 35px;
+                padding-bottom: 15px;
+                padding-left: 35px;
+
+                margin-top: unset;
+                margin-bottom: unset;
+            }
         }
     }
 
@@ -130,7 +152,6 @@ body {
 
         @include media-breakpoint-up(lg) {
             display: none;
-
         }
     }
 
@@ -144,6 +165,7 @@ body {
             z-index: 1;
             top: 0;
             right: 0;
+            width: 168.8%;
         }
     }
 }
@@ -153,6 +175,11 @@ body {
     @media screen and (min-height: 600px) {
         height: calc(100vh - 58.8px);
     }
+}
+
+footer {
+    position: relative;
+    z-index: 3;
 }
 
 .is-mobile footer {
