@@ -71,6 +71,13 @@ h6 {
     padding-right: 20px;
     margin-bottom: 100px;
 
+    @include media-breakpoint-up(lg) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
     .img-ipad {
         margin-top: 15px;
 
@@ -138,6 +145,20 @@ hr {
 }
 
 footer {
+    position: relative;
+    z-index: 3;
+}
+
+.is-mobile footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0A2246;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+}
+
+.is-desktop footer {
     display: flex;
     justify-content: center;
     background-color: #0A2246;
