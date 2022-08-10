@@ -19,10 +19,6 @@ let attach = (e) => {
 window.addEventListener('DOMContentLoaded', attach(mql));
 mql.addEventListener('change', attach);
 
-
-const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-
 window.addEventListener('load', () => {
     let left = document.querySelector('.left');
     let right = document.querySelector('.right');
