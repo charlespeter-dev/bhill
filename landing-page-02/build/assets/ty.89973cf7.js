@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill.b7f2da20.js";let e=window.matchMedia("(min-width: 992px)"),t=d=>{d.matches?(document.body.classList.remove("is-mobile"),document.body.classList.add("is-desktop")):(document.body.classList.remove("is-desktop"),document.body.classList.add("is-mobile"))};window.addEventListener("DOMContentLoaded",t(e));e.addEventListener("change",t);

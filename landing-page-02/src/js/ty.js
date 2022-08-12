@@ -18,14 +18,3 @@ let attach = (e) => {
 
 window.addEventListener('DOMContentLoaded', attach(mql));
 mql.addEventListener('change', attach);
-
-window.addEventListener('load', () => {
-    let left = document.querySelector('.left');
-    let right = document.querySelector('.right');
-    let leftH = left.getBoundingClientRect().height;
-    let isdesktop = document.querySelector('body').classList.contains('is-desktop');
-
-    if (isdesktop) {
-        right.setAttribute('style', `height: ${leftH}px;`);
-    }
-});
