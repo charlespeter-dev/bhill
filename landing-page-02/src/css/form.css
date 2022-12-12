@@ -49,6 +49,17 @@ form .form-field {
     flex-direction: column;
 }
 
+form label {
+    display: block !important;
+}
+
+form select {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #B4B4B4;
+    border-radius: 5px;
+}
+
 form .form-field.error {
     font-style: normal !important;
 }
@@ -86,13 +97,18 @@ form input[type="text"] {
     border-radius: 5px;
 }
 
-form .errors {
-    text-align: center;
-}
-
 form .errors,
 form .error {
-    margin-left: 15px;
     font-style: italic;
     color: red;
+    clear: both;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #ea4949;
+    font-weight: 300;
+}
+
+form .first_name,
+form .city {
+    margin-right: 10px;
 }

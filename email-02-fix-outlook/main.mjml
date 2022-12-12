@@ -1,0 +1,21 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial, san-serif" font-size="16px" line-height="24px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-section padding="0" background-color="#1C3E6E">
+      <mj-column>
+        <mj-text>
+          &nbsp;
+        </mj-text>
+        <mj-image fluid-on-mobile="true" container-background-color="#FFFFFF" src="https://bhill.2xcode.dev/test-640x360.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,27 @@
+.form-field {
+    clear: both;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.form-field:before,
+.form-field:after {
+    content: " ";
+    display: table;
+}
+
+.form-field:after {
+    clear: both;
+}
+
+.form-field.col-2 {
+    clear: none;
+    float: left;
+    width: 48%;
+}
+
+.form-field.col-3 {
+    clear: none;
+    float: left;
+    width: 30.666667%;
+}

@@ -179,7 +179,7 @@ body {
 
 footer {
     position: relative;
-    z-index: 3;
+    z-index: -1;
 }
 
 .is-mobile footer {
@@ -198,18 +198,6 @@ footer {
     color: #fff;
     width: 100%;
     padding: 15px;
-    margin-top: 30px;
-
-    @media screen and (min-height: 500px) {
-        position: relative;
-        margin-top: unset;
-    }
-
-    @media screen and (min-height: 600px) {
-        bottom: 0;
-        position: fixed;
-        margin-top: unset;
-    }
 }
 
 @include media-breakpoint-up(lg) {
