@@ -5,9 +5,9 @@
       <mj-section background-color="#ffffff" />
       <mj-table font-family="Arial, san-serif" font-size="16px" line-height="24px" color="#505050" />
       <mj-text font-family="Arial, san-serif" font-size="16px" line-height="24px" color="#505050" />
-      <mj-button font-family="Arial, san-serif" font-size="16px" line-height="24px" font-weight="700" background-color="#81BD41" color="#FFFFFF" border="1px solid #81BD41" />
+      <mj-button font-family="Arial, san-serif" font-size="16px" line-height="24px" font-weight="700" background-color="#1b3d6d" color="#FFFFFF" border="1px solid #1b3d6d" />
       <mj-class name="h1" font-family="Arial, san-serif" font-size="20px" line-height="26px" font-weight="700" color="#FFFFFF" align="center" />
-      <mj-class name="h2" font-family="Arial, san-serif" font-size="18px" line-height="24px" font-weight="700" color="#81BD41" align="center" />
+      <mj-class name="h2" font-family="Arial, san-serif" font-size="18px" line-height="24px" font-weight="700" color="#1b3d6d" align="center" />
       <mj-class name="footer" font-family="Arial, san-serif" font-size="14px" line-height="20px" color="#909698" />
       <mj-class name="small" font-family="Arial, san-serif" font-size="12px" line-height="14px" color="#909698" align="center" />
     </mj-attributes>
@@ -29,15 +29,15 @@
 
       <!-- logo -->
 
-      <mj-section background-color="#1C3E6E">
+      <mj-section background-color="#81BD41">
         <mj-column>
-          <mj-image href="https://www.bakerhill.com/" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z63x/635721/1658923126ZBA4n4jm/logo.png" padding="0" width="196px" height="75px" />
+          <mj-image href="https://www.bakerhill.com/" src="https://connect.bakerhill.com/l/635721/2022-12-12/6c5cj/635721/1670840604GhQgyIoR/Baker_Hill_Logo_white.png" padding="0" width="196px" height="75px" />
         </mj-column>
       </mj-section>
 
       <!-- header -->
 
-      <mj-section padding="0" background-color="#1C3E6E">
+      <mj-section padding="0" background-color="#81BD41">
         <mj-column>
           <mj-text mj-class="h2">
             Case Study
@@ -45,7 +45,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0" background-color="#1C3E6E">
+      <mj-section padding="0" background-color="#81BD41">
         <mj-column>
           <mj-text mj-class="h1">
             Stay secured with a better IT partner
@@ -53,7 +53,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#1C3E6E">
+      <mj-section background-color="#81BD41">
         <mj-column>
           <mj-button href="https://www.bakerhill.com/">
             Download Now
@@ -61,9 +61,9 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0" background-color="#1C3E6E">
+      <mj-section padding="0" background-color="#81BD41">
         <mj-column>
-          <mj-image padding="0" fluid-on-mobile="true" src="https://storage.pardot.com/635721/1658918190VG7uKYaw/ipad_thumbnail_email.png" alt="" />
+          <mj-image padding="0" fluid-on-mobile="true" container-background-color="#FFFFFF" src="https://connect.bakerhill.com/l/635721/2022-11-29/6b6zf/635721/1669779731qzoaHpqe/Email_Pattern_Green.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -81,18 +81,18 @@
 
       <mj-section padding="0">
         <mj-column>
-          <mj-table padding-top="0" cellpadding="6px" cellspacing="6px">
+          <mj-table padding-top="0">
             <tr>
-              <td style="line-height: 2;"><img fluid-on-mobile="true" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yb/635721/16589180869a9nbQnV/icon.jpg" alt="" /></td>
-              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+              <td valign="middle" align="left" style="padding: 0 0 5px 0; line-height: 1; width: 50px; vertical-align: middle;"><img style="width: 48px; height: 48px;" fluid-on-mobile="true" width="48" height="48" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yb/635721/16589180869a9nbQnV/icon.jpg" alt="" /></td>
+              <td valign="middle" align="left" style="padding: 6px; vertical-align: middle;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
             </tr>
             <tr>
-              <td style="line-height: 2;"><img fluid-on-mobile="true" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yf/635721/1658918103lkmv2V4n/icon_2.jpg" alt="" /></td>
-              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+              <td valign="middle" align="left" style="padding: 0 0 5px 0; line-height: 1; width: 50px; vertical-align: middle;"><img style="width: 48px; height: 48px;" fluid-on-mobile="true" width="48" height="48" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yf/635721/1658918103lkmv2V4n/icon_2.jpg" alt="" /></td>
+              <td valign="middle" align="left" style="padding: 6px; vertical-align: middle;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
             </tr>
             <tr>
-              <td style="line-height: 2;"><img fluid-on-mobile="true" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yj/635721/1658918127S8oVLy0T/icon_3.jpg" alt="" /></td>
-              <td style="padding-left: 20px;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
+              <td valign="middle" align="left" style="padding: 0 0 5px 0; line-height: 1; width: 50px; vertical-align: middle;"><img style="width: 48px; height: 48px;" fluid-on-mobile="true" width="48" height="48" src="https://connect.bakerhill.com/l/635721/2022-07-27/5z5yj/635721/1658918127S8oVLy0T/icon_3.jpg" alt="" /></td>
+              <td valign="middle" align="left" style="padding: 6px; vertical-align: middle;">Why do MSPs have a better advantage in dealing with cyberattacks</td>
             </tr>
           </mj-table>
         </mj-column>
